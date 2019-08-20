@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags always come first -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <title>Welcome to Bootstrap4.</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+    
+  </head>
+  <body>
+      <section id="cover">
+          <div id="cover-caption">
+              <div class="container">
+                  <div class="col-sm-10 col-sm-offset-1">
+                      <h1 class="display-3">Welcome to Bootstrap4</h1>
+                      <p>It is like previous one but Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum porro minus sint labore inventore quasi animi veritatis dicta fuga facilis consequuntur necessitatibus, sit corrupti repudiandae! Sed eos cupiditate magnam nam.</p>
+                  </div>
+                  <form class="form-inline">
+                       <div class="form-group">
+                          <label class="sr-only">Name</label>
+                          <input type="text" class="form-control form-control-lg" placeholder="Abc Def">
+                        </div>
+                        <div class="form-group">
+                            <label class="sr-only">Email</label>
+                            <input type="text" class="form-control form-control-lg" placeholder="abc.def@example.com">
+                        </div>
+                        <button type="submit" class="btn btn-success btn-lg">Okay! Go</button>
+                   </form>
+                    <a href="#nav-main" class="btn btn-secondary-outline btn-sm" role="button">&darr;</a>
+                  
+              </div>
+          </div>
+      </section>
+
+
+      <nav class="navbar navbar-dark bg-inverse navbar-full" id="nav-main">
+            <a class="navbar-brand" href="#">Your Logo</a>
+            <ul class="nav navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#what-we-do">Features</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Pricing</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">About</a>
+                </li>
+            </ul>
+            <form class="form-inline pull-xs-right">
+                <input class="form-control" type="text" placeholder="Search">
+                <button class="btn btn-success-outline" type="submit">Search</button>
+            </form>
+        </nav>
+
+        <section id="carousel">
+                <div id="carousel-home" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li class="active" data-target="#carousel-home" data-slide-to="0"></li>
+                        <li data-target="#carousel-home" data-slide-to="1"></li>
+                        <li data-target="#carousel-home" data-slide-to="2"></li>
+                    </ol>
+                        <div class="carousel-inner" role="listbox">
+                          <div class="carousel-item active">
+                            <img src="img/woman-camera.jpg"  alt="Women with a camera">
+
+                            <div class="carousel-caption">
+                                <h3>A woman with a camera</h3>
+                                <p>She is probably taking a picture</p>
+                            </div>
+                          </div>
+                          <div class="carousel-item">
+                            <img src="img/spiderweb.jpg"  alt="wet spider">
+
+                            <div class="carousel-caption">
+                                <h3> wet Spiderweb</h3>
+                                <p>Spider get wet by rain probably.</p>
+                            </div>
+                          </div>
+                          <div class="carousel-item">
+                            <img src="img/hearthand.jpg" alt="Hand with a heartshape.">
+
+                            <div class="carousel-caption">
+                                <h3>Spread love</h3>
+                                <p>Heart is symbol of love.</p>
+                            </div>
+                          </div>
+                        </div>
+                        <a class="left carousel-control" href="#carousel-home" role="button" data-slide="prev">
+                          <span class="icon-prev" aria-hidden="true"></span>
+                          <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="right carousel-control" href="#carousel-home" role="button" data-slide="next">
+                          <span class="icon-next" aria-hidden="true"></span>
+                          <span class="sr-only">Next</span>
+                        </a>
+                      </div>
+        </section>
+
+        <section id="what-we-do">
+                <div class="section-content">
+                    <div class="container">
+                        <h2>What we do</h2>
+                        <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui accusantium commodi non quod mollitia animi, totam quia labore ex est ut delectus consectetur explicabo eveniet maiores, cumque aut repudiandae. Natus!</p>
+                    
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <div class="card-deck">
+                                    <div class="card">
+                                        <div class="card-block">
+                                            <h4 class="card-title">Strategy &amp; Planning</h4>
+                                            <h6 class="card-subtitle">Support card subtitle</h6>
+                                        </div>
+                                        <img src="img/chalkboard.jpg" alt="a chalkboard">
+                                        <div class="card-block">
+                                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                            <button type="button" class="btn btn-success-outline" data-toggle="modal" data-target="#myModal">learn more</button>
+                                        </div>
+                                    </div>
+       
+                                    <div class="card">
+                                        <div class="card-block">
+                                            <h4 class="card-title">Creative &amp; Design</h4>
+                                            <h6 class="card-subtitle">Support card subtitle</h6>
+                                        </div>
+                                        <img src="img/working.jpg" alt="working on a laptop">
+                                        <div class="card-block">
+                                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi debitis fugit molestias dignissimos, id hic officiis quam possimus tenetur minima voluptatibus accusantium, numquam voluptates velit, dicta maiores dolor quo expedita.</p>
+                                            <button type="button" class="btn btn-success-outline" data-toggle="modal" data-target="#myModal">learn more</button>
+                                        </div>
+                                    </div>
+       
+                                    <div class="card">
+                                        <div class="card-block">
+                                            <h4 class="card-title">Programming &amp; Technical</h4>
+                                            <h6 class="card-subtitle">Support card subtitle</h6>
+                                        </div>
+                                        <img src="img/programming.jpg" alt="fingers typing on a keyboard">
+                                        <div class="card-block">
+                                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi debitis fugit molestias dignissimos, id hic officiis quam possimus tenetur minima voluptatibus accusantium.</p>
+                                            <button type="button" class="btn btn-success-outline" data-toggle="modal" data-target="#myModal">learn more</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+           </section>
+    
+           <section id="about">
+               <div class="section-content">
+                   <div class="container">
+                       <div class="col-md-6">
+                           <div class="about-text">
+                               <h3>About me:</h3>
+                               <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque quibusdam possimus quo praesentium,</p>
+                               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos facilis numquam debitis. Aliquam dolorum quae aut, non, iure consequatur natus commodi repellendus neque vel sapiente eaque esse culpa libero quis!</p>
+                               <h6>Follow me</h6>
+                               <a href="" class="btn btn-sm btn-secondary-outline">twitter</a>
+                                <a href="" class="btn btn-sm btn-secondary-outline">facebook</a>
+                                <a href="" class="btn btn-sm btn-secondary-outline">youtube</a>
+                           </div>
+                       </div>
+                   </div>
+               </div>
+           </section>
+
+            <section id="news">
+                <div class="section-content">
+                    <div class="container">
+                        <h4>Latest News</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam recusandae ipsum totam rem voluptates,</p>
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <div class="card-columns">
+                                    <div class="card">
+                                        <img src="img/woman-camera.jpg" alt="woman with a camera" class="card-img-top">
+                                        <div class="card-block">
+                                            <h4 class="card-title">
+                                                Card-Title
+                                            </h4>
+                                            <p class="card-text">
+                                                This is a card to show some words. Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                                            </p>
+                                        </div>
+                                    </div>
+                                        <div class="card card-block">
+                                            <blockquote class="card-blockquote">
+                                                <p>
+                                                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio aliquid quasi et a iure voluptatibus eum nesciunt dignissimos provident, excepturi quam odio accusantium enim, fugiat maiores molestiae voluptatem corrupti praesentium!
+                                                </p>
+                                                <footer>
+                                                    <small class="text-muted">
+                                                        Someone
+                                                        famous in <cite title="Source title">Source Title</cite>
+                                                    </small>
+                                                </footer>
+                                            </blockquote>
+                                        </div>
+                                        <div class="card">
+                                            <img class="card-img-top" src="img/stars.jpg" alt="stars in the sky">
+                                            <div class="card-block">
+                                                <h4 class="card-title">Card-Title</h4>
+                                                <p>This is some random words about stars. Lorem ipsum dolor sit amet consectetur, adipisicing elit. </p>
+                                                <footer>
+                                                    <small class="text-muted">
+                                                        updated 3 minutes ago.
+                                                    </small>
+                                                </footer>
+                                            </div>
+                                        </div>
+                                        <div class="card card-block card-inverse card-primary text-xs-center">
+                                            <blockquote class="card-blockquote">
+                                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis autem maxime, ex fugiat deserunt ab nam. Necessitatibus suscipit culpa sint possimus. </p>
+                                            </blockquote>
+                                            <footer>
+                                                <small class="text-muted">
+                                                    Said by someone famous. <cite title="Source title">Source Title</cite>
+                                                </small>
+                                            </footer>
+                                        </div>
+                                        <div class="card card-block text-xs-center">
+                                                <h4 class="card-title">Card-Title</h4>
+                                                <p>This is some random words about stars. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nostrum esse unde quas animi possimus veniam voluptatem eveniet inventore aut eligendi?</p>
+                                                <footer>
+                                                    <small class="text-muted">
+                                                        updated 3 minutes ago.
+                                                    </small>
+                                                </footer>
+                                        </div>
+                                        <div class="card">
+                                            <img src="img/programming.jpg" alt="Working on a Computer." class="card-img-top">
+                                        </div>
+                                        <div class="card card-block card-inverse card-warning text-xs-center">
+                                                <blockquote class="card-blockquote">
+                                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis autem maxime, ex fugiat deserunt ab nam. Necessitatibus suscipit culpa sint possimus.</p>
+                                                </blockquote>
+                                                <footer>
+                                                    <small class="text-muted">
+                                                        Said by someone famous. <cite title="Source title">Source Title</cite>
+                                                    </small>
+                                                </footer>
+                                        </div>
+                                        <div class="card-block">
+                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis dolor beatae molestiae at quasi mollitia facilis, necessitatibus autem, recusandae delectus nam modi quidem nobis iure quos, rerum id hic quaerat? Nobis, nesciunt, </p>
+                                            <footer>
+                                                    <small class="text-muted">
+                                                        Said by someone famous. <cite title="Source title">Source Title</cite>
+                                                    </small>
+                                                </footer>
+                                        </div>
+                                    </div>
+
+                                    <hr>
+                                    <nav class="text-xs-center">
+                                            <ul class="pagination">
+                                                <li class="page-item">
+                                                    <a class="page-link" href="#" aria-label="Previous">
+                                                        <span aria-hidden="true">&laquo;</span>
+                                                        <span class="sr-only">Previous</span>
+                                                    </a>
+                                                </li>
+                                                <li class="page-item"><a class="page-link" href="#">1</a></li>
+                                                <li class="page-item"><a class="page-link" href="#">2</a></li>
+                                                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                                                <li class="page-item"><a class="page-link" href="#">4</a></li>
+                                                <li class="page-item"><a class="page-link" href="#">5</a></li>
+                                                <li class="page-item">
+                                                    <a class="page-link" href="#" aria-label="Next">
+                                                        <span aria-hidden="true">&raquo;</span>
+                                                        <span class="sr-only">Next</span>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                    </nav>    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            </section>
+
+            <footer id="footer-main">
+                <div class="container">
+                        <div class="row">
+                                <div class="col-sm-3">
+                                    <p>uncopyright 2015. do what you want.</p>
+                                    <p>coded by <a href="http://bradhussey.ca/">brad</a></p>
+                                </div>
+                                <div class="col-sm-3">
+                                    <ul class="list-unstyled">
+                                        <li><a href="">home</a></li>
+                                        <li><a href="">what we do</a></li>
+                                        <li><a href="">about</a></li>
+                                        <li><a href="">latest</a></li>
+                                    </ul>
+                                </div>
+                                <div class="col-sm-3">
+                                    <ul class="list-unstyled">
+                                        <li><a href="">facebook</a></li>
+                                        <li><a href="">twitter</a></li>
+                                        <li><a href="">youtube</a></li>
+                                        <li><a href="">linkedin</a></li>
+                                    </ul>
+                                </div>
+                                <div class="col-sm-3">
+                                    <h6>a tiny header</h6>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam expedita fugit saepe, eum ad, quam! Eum magnam suscipit nulla ullam aliquam consectetur provident, nihil consequuntur porro labore asperiores corrupti esse?</p>
+                                </div>
+                        </div>
+                </div>
+            </footer>
+        
+
+
+    <!-- jQuery first, then Bootstrap JS. -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+  </body>
+</html>
